@@ -1,0 +1,21 @@
+.NumbersTable {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+.Even {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  background-color: red;
+}
+.Odd {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  background-color: white;
+}

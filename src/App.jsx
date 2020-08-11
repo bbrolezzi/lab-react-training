@@ -4,6 +4,10 @@ import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import NumbersTable from './components/NumbersTable';
+import Facebook from './components/Facebook';
 
 function App() {
   return (
@@ -44,11 +48,31 @@ function App() {
         </div>
       </div>
       <div>
-        <h1>Box Color</h1>
+        <h1>BoxColor</h1>
         <div>
           <BoxColor r={255} g={0} b={0} />
           <BoxColor r={128} g={255} b={0} />
         </div>
+      </div>
+      <div>
+        <h1>LikeButton</h1>
+        <LikeButton />
+        <LikeButton />
+      </div>
+      <div>
+        <h1>ClickablePicture</h1>
+        <ClickablePicture
+          img="/img/persons/maxence.png"
+          imgClicked="/img/persons/maxence-glasses.png"
+        />
+      </div>
+      <div>
+        <h1>NumbersTable</h1>
+        <NumbersTable limit={12} />
+      </div>
+      <div>
+        <h1>Facebook</h1>
+        <Facebook />
       </div>
     </div>
   );
