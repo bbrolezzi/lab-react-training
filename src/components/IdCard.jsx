@@ -22,7 +22,7 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
         </p>
         <p>
           <strong>Height: </strong>
-          {height}
+          {height / 100}m
         </p>
         <p>
           <strong>Date of Birth: </strong>
