@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import IdCard from './components/IdCard';
-import Greetings from './components/Greetings';
-import Random from './components/Random';
-import BoxColor from './components/BoxColor';
-import LikeButton from './components/LikeButton';
-import ClickablePicture from './components/ClickablePicture';
-import NumbersTable from './components/NumbersTable';
-import Facebook from './components/Facebook';
+import IdCard from './components/IdCard/IdCard';
+import Greetings from './components/Greetings/Greetings';
+import Random from './components/Random/Random';
+import BoxColor from './components/BoxColor/BoxColor';
+import LikeButton from './components/LikeButton/LikeButton';
+import ClickablePicture from './components/ClickablePicture/ClickablePicture';
+import NumbersTable from './components/NumbersTable/NumbersTable';
+import Facebook from './components/Facebook/Facebook';
+import SignupPage from './components/SignupPage/SignupPage';
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
       <div>
         <h1>Facebook</h1>
         <Facebook />
+      </div>
+      <div>
+        <h1>SignupPage</h1>
+        <SignupPage />
       </div>
     </div>
   );

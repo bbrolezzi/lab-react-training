@@ -1,5 +1,5 @@
 import React from 'react';
-import profiles from './../data/berlin.json';
+import profiles from './../../data/berlin.json';
 
 const Facebook = () => {
   return (
